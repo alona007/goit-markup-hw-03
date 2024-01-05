@@ -4,46 +4,16 @@
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.container {
-  max-width: 1158px;
-  width: 480px;
-  padding: 0 15px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  display: inline;
-  justify-content: center;
-}
-
 .text-title-section {
   width: 200px;
   height: 200px;
   padding: 10px;
-}
-
-.title-first-section {
-  padding-top: 188px;
-  padding-right: 472px;
-  padding-bottom: 292px;
-  padding-left: 472px;
 }
 
 body {
@@ -142,21 +112,36 @@ ul {
 .address-link:focus {
   color: #404bbf;
 }
-/* header*/
 
-/* 1 section*/
+/* first-section*/
 .first-section {
   background: #2e2f42;
 }
 
+.container {
+  width: 1158px;
+  width: 480px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: inline;
+  justify-content: center;
+}
+
 .title-first-section {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.title-first-section {
+  width: 496px;
   color: #fff;
   text-align: center;
+  margin: 0 auto;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  letter-spacing: 1.12px;
+  margin-bottom: 48px;
 }
 
 .first-button {
@@ -175,9 +160,8 @@ ul {
 .first-button:focus {
   background-color: #404bbf;
 }
-/* 1 section*/
 
-/* 2 section*/
+/*second-section*/
 .second-section {
 }
 
@@ -202,9 +186,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* 2 section*/
 
-/* 3 section*/
+/*third-section*/
 .third-section {
   background-color: #f4f4fd;
 }
@@ -238,22 +221,25 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* 3 section*/
-
-/* 4 section*/
+/*fourth-section*/
 .fourth-section {
+  background: #fff;
 }
 
 .title-fourth-section {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+.list-item {
+  background: #fff;
+}
+
 .title-section {
   color: #2e2f42;
   font-size: 20px;
@@ -271,8 +257,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* 4 section*/
-
 /* footer*/
 .footer {
   background: #2e2f42;
