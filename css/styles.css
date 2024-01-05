@@ -77,13 +77,9 @@ body {
   display: flex;
 }
 
-.nav-contacts {
-  display: flex;
-  align-items: center;
-}
-
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
