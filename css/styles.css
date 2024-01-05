@@ -63,10 +63,6 @@ body {
   display: block;
 }
 
-.container_header-container {
-  display: flex;
-}
-
 .container {
   width: 1158px;
   width: 480px;
@@ -75,6 +71,10 @@ body {
   box-sizing: border-box;
   display: inline;
   justify-content: center;
+}
+
+.container_header-container {
+  display: flex;
 }
 
 .header-navigation {
