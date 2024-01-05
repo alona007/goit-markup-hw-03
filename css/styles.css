@@ -61,6 +61,19 @@ ul {
 }
 
 /* header*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+}
+
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -70,7 +83,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 22.5px;
-  margin-right: 0px;
+  margin-right: 76px;
   margin-bottom: 22.5px;
   margin-left: 156px;
 }
@@ -95,6 +108,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu-link:hover,
@@ -102,8 +117,17 @@ ul {
   color: #404bbf;
 }
 
+.header-menu-item {
+  padding: 24px 0;
+}
+
 .address {
   font-style: normal;
+  display: flex;
+}
+
+.address-list {
+  gap: 40px;
 }
 
 .address-link {
