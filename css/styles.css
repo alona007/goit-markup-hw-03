@@ -211,7 +211,7 @@ body {
   gap: 24px;
 }
 
-.list-item {
+.list-item-second {
   width: calc((100% - 72px) / 4);
 }
 
@@ -242,10 +242,6 @@ body {
   gap: 24px;
 }
 
-.list-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .team-container {
   background-color: #f4f4fd;
   padding: 32px 0;
@@ -271,7 +267,6 @@ body {
 }
 
 .list-item {
-  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
