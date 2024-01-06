@@ -160,6 +160,10 @@ body {
   padding: 188px 0 188px;
 }
 
+.first-container {
+  max-width: 496px;
+}
+
 .title-first-section {
   font-weight: 700;
   letter-spacing: 0.02em;
