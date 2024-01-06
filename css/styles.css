@@ -171,20 +171,22 @@ body {
 }
 
 .first-button {
+  color: #ffffff;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  font-style: normal;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  padding: 16px 32px;
+  margin: auto;
 }
 
 .first-button:hover,
