@@ -310,6 +310,10 @@ body {
   row-gap: 48px;
 }
 
+.portfolio-container {
+  padding: 32px 0;
+}
+
 .title-fourth-section {
   color: #2e2f42;
   text-align: center;
