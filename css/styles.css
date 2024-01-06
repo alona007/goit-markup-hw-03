@@ -107,7 +107,7 @@ body {
   gap: 40px;
 }
 
-.header-menu-item {
+.header-menu-list {
   padding: 24px 0;
 }
 
@@ -117,8 +117,6 @@ body {
   font-weight: 500;
   line-height: 1.5px;
   letter-spacing: 0.02em;
-  padding-top: 1.5px;
-  padding-bottom: 1.5px;
 }
 
 .header-menu-link:hover,
