@@ -65,16 +65,15 @@ body {
 
 .container {
   width: 1158px;
-  width: 480px;
   padding: 0 15px;
   margin: 0 auto;
-  box-sizing: border-box;
-  display: inline;
-  justify-content: center;
 }
 
 .header-container {
   display: flex;
+  box-sizing: border-box;
+  display: inline;
+  justify-content: center;
 }
 
 .header-navigation {
