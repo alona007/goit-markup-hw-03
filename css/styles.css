@@ -353,11 +353,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
+  display: inline-block;
   align-items: center;
   padding-top: 1.5px;
   padding-bottom: 1.5px;
   margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
