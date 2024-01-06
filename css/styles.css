@@ -263,7 +263,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  border-radius: 0px 0px 4px 4px;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
