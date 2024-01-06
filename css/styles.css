@@ -309,6 +309,9 @@ body {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+}
+
+.list-item {
   width: calc((100% - 48px) / 3);
 }
 
