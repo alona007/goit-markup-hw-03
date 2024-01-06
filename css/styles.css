@@ -154,6 +154,9 @@ body {
 /* first-section*/
 .first-section {
   background: #2e2f42;
+}
+
+.container {
   padding: 188px 0;
 }
 
