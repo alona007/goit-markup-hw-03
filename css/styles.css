@@ -242,19 +242,6 @@ body {
   gap: 24px;
 }
 
-.team-container {
-  background-color: #f4f4fd;
-  padding: 32px 0;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  gap: 24px;
-  text-align: center;
-}
-
 .title-third-section {
   color: #2e2f42;
   text-align: center;
