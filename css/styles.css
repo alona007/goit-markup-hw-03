@@ -196,12 +196,16 @@ body {
 
 /*second-section*/
 .second-section {
+  padding: 120px 0;
 }
 
 .second-section-list {
+  display: flex;
+  gap: 24px;
 }
 
 .list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .title-section {
@@ -210,6 +214,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text-title-section {
