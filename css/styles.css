@@ -240,7 +240,9 @@ body {
 /*third-section*/
 .third-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
+
 .title-third-section {
   color: #2e2f42;
   text-align: center;
@@ -249,12 +251,16 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .images-list {
+  display: flex;
+  gap: 24px;
 }
 
 .list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .img-list-item {
