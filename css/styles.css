@@ -35,11 +35,6 @@ li {
   text-decoration: none;
 }
 
-.visually-hidden {
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
