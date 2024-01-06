@@ -156,29 +156,18 @@ body {
 .first-section {
   background: #2e2f42;
   padding: 188px 0 188px;
-}
-
-.container {
+  text-align: center;
 }
 
 .title-first-section {
   max-width: 496px;
-}
-
-.title-first-section {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.title-first-section {
-  width: 496px;
   color: #fff;
-  text-align: center;
   margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 1.12px;
   margin-bottom: 48px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .first-button {
@@ -191,6 +180,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   font-style: normal;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .first-button:hover,
