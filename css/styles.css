@@ -280,6 +280,12 @@ body {
   background: #fff;
 }
 
+.images-list {
+  display: flex;
+  gap: 24px;
+  padding: ;
+}
+
 .title-fourth-section {
   color: #2e2f42;
   text-align: center;
