@@ -239,7 +239,18 @@ body {
 
 /*third-section*/
 .third-section {
-  padding: 120px;
+  padding: 120px 0;
+}
+
+.images-list {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 24px;
+  text-align: center;
 }
 
 .team-container {
@@ -258,16 +269,6 @@ body {
   margin-bottom: 72px;
 }
 
-.img-list-item {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  gap: 24px;
-  text-align: center;
-}
 .list-item {
   width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
