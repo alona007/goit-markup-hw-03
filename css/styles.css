@@ -72,7 +72,7 @@ body {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
+  margin-right: auto;
 }
 
 .header-logo {
