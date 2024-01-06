@@ -284,13 +284,16 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
+
 .text-title-section {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /*fourth-section*/
 .fourth-section {
