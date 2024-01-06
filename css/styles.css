@@ -90,6 +90,8 @@ body {
   margin-right: 76px;
   margin-bottom: 22.5px;
   margin-left: 156px;
+  display: flex;
+  align-items: center;
 }
 
 .header-studio {
