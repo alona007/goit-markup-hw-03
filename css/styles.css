@@ -295,15 +295,19 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 /*fourth-section*/
 .fourth-section {
   background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .images-list {
   display: flex;
-  gap: 24px;
-  padding: ;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .title-fourth-section {
@@ -314,6 +318,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .list-item {
