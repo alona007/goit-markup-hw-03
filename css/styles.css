@@ -243,6 +243,13 @@ body {
 }
 
 .images-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-container {
+  background-color: #f4f4fd;
+  padding: 32px 0;
   display: block;
   max-width: 100%;
   height: auto;
@@ -251,11 +258,6 @@ body {
   flex-wrap: nowrap;
   gap: 24px;
   text-align: center;
-}
-
-.team-container {
-  background-color: #f4f4fd;
-  padding: 32px 0;
 }
 
 .title-third-section {
