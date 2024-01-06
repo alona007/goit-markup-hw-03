@@ -48,8 +48,6 @@ body {
 
 /* header*/
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -68,7 +66,6 @@ body {
 .header-container {
   display: flex;
   box-sizing: border-box;
-  display: inline;
   justify-content: center;
 }
 
@@ -86,12 +83,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 22.5px;
-  margin-right: 76px;
-  margin-bottom: 22.5px;
-  margin-left: 156px;
   display: flex;
   align-items: center;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
 }
 
 .header-studio {
@@ -102,14 +97,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 22.5px;
-  margin-right: 1169px;
-  margin-bottom: 22.5px;
-  margin-left: 0px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  margin-right: 76px;
 }
 
 .header-menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-menu-item {
@@ -120,10 +115,10 @@ body {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
-  display: flex;
-  gap: 40px;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
 }
 
 .header-menu-link:hover,
@@ -133,19 +128,25 @@ body {
 
 .address {
   font-style: normal;
-  display: flex;
 }
 
 .address-list {
+  display: flex;
   gap: 40px;
+}
+
+.address {
+  padding: 24px 0;
 }
 
 .address-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5px;
   letter-spacing: 0.02em;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
 }
 
 .address-link:hover,
