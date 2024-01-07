@@ -240,6 +240,7 @@ body {
 
 .list-item-third {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-offer {
