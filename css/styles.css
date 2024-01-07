@@ -239,6 +239,17 @@ body {
   background: #f4f4fd;
 }
 
+.title-third-section {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
 .img-list-item-third {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -252,17 +263,6 @@ body {
 .images-list-third {
   display: flex;
   gap: 24px;
-}
-
-.title-third-section {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .title-section {
