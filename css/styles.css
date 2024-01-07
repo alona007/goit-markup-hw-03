@@ -250,7 +250,12 @@ body {
   margin-bottom: 72px;
 }
 
-.img-list-item-third {
+.images-list-third {
+  display: flex;
+  gap: 24px;
+}
+
+.list-item-third {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -258,11 +263,6 @@ body {
 
 .name-offer {
   padding: 32px 0;
-}
-
-.images-list-third {
-  display: flex;
-  gap: 24px;
 }
 
 .title-section {
