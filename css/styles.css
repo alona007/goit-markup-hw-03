@@ -348,6 +348,7 @@ body {
   text-transform: uppercase;
   align-items: center;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-studio {
@@ -358,7 +359,6 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .text-footer {
