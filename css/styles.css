@@ -210,7 +210,7 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
-.title-section {
+.title-section-second {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -219,7 +219,7 @@ body {
   margin-bottom: 8px;
 }
 
-.text-title-section {
+.text-title-section-second {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -259,7 +259,7 @@ body {
   padding: 32px 0;
 }
 
-.title-section {
+.title-section-third {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -268,7 +268,7 @@ body {
   text-align: center;
 }
 
-.text-title-section {
+.text-title-section-third {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -317,7 +317,7 @@ body {
   background: #fff;
 }
 
-.title-section {
+.title-section-fourth {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -325,7 +325,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.text-title-section {
+.text-title-section-fourth {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
