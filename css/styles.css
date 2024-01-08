@@ -35,9 +35,8 @@ body {
   background-color: #ffffff;
 }
 
-.img {
+img {
   display: block;
-  height: 100%;
 }
 
 /* header*/
