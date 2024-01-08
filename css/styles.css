@@ -79,6 +79,8 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .header-studio {
