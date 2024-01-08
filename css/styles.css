@@ -37,6 +37,7 @@ body {
 
 .img {
   display: block;
+  height: 100%;
 }
 
 /* header*/
@@ -78,10 +79,6 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  padding-top: 1.5px;
-  padding-bottom: 1.5px;
-  margin-top: 16px;
-  margin-right: 76px;
 }
 
 .header-studio {
@@ -92,8 +89,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 1.5px;
-  padding-bottom: 1.5px;
 }
 
 .header-menu-list {
@@ -102,15 +97,12 @@ body {
 }
 
 .header-menu-link {
-  padding: 24px 0;
-}
-
-.header-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5px;
   letter-spacing: 0.02em;
+  margin-left: 76px;
 }
 
 .header-menu-link:hover,
@@ -137,8 +129,6 @@ body {
   font-weight: 400;
   line-height: 1.5px;
   letter-spacing: 0.02em;
-  padding-top: 1.5px;
-  padding-bottom: 1.5px;
 }
 
 .address-link:hover,
@@ -342,19 +332,6 @@ body {
 .footer {
   background: #2e2f42;
   padding: 100px 0;
-}
-
-.header-logo {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  align-items: center;
-  margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-studio {
