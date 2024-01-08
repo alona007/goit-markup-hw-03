@@ -80,7 +80,6 @@ body {
   display: flex;
   align-items: center;
   display: inline-block;
-  margin-right: 76px;
 }
 
 .header-studio {
@@ -91,6 +90,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-menu-list {
