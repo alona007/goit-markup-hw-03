@@ -37,7 +37,6 @@ body {
 
 .img {
   display: block;
-  height: 100%;
 }
 
 /* header*/
@@ -241,6 +240,7 @@ body {
 .images-list-third {
   display: flex;
   gap: 24px;
+  height: 100%;
 }
 
 .list-item-third {
@@ -284,6 +284,7 @@ body {
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  height: 100%;
 }
 
 .list-item-fourth {
