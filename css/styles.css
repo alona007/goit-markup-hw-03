@@ -88,12 +88,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .header-menu-item {
