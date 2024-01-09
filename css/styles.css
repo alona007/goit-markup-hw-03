@@ -49,7 +49,6 @@ img {
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
 }
 
 .container {
@@ -60,8 +59,6 @@ img {
 
 .header-container {
   display: flex;
-  box-sizing: border-box;
-  justify-content: center;
 }
 
 .header-navigation {
@@ -96,15 +93,15 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .header-menu-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 76px;
 }
 
 .header-menu-link {
@@ -216,6 +213,8 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  gap: 24px;
 }
 
 .text-title-section-second {
@@ -265,6 +264,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .text-title-section-third {
@@ -321,6 +321,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text-title-section-fourth {
